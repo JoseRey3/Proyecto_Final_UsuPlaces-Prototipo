@@ -17,8 +17,10 @@
         <activity
             android:name=".activites.ItemDetail"
             android:exported="false" />
+        <activity android:name=".activites.RegisterActivity" />
+        <activity android:name=".activites.IntroActivity"/>
         <activity
-            android:name=".activites.IntroActivity"
+            android:name=".activites.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -70,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
         // Verificar las credenciales del usuario en la base de datos
         if (dbManager.checkUserCredentials(email, password)) {
             // Credenciales válidas, redirigir al usuario a la siguiente actividad
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this, IntroActivity.class);
             startActivity(intent);
             finish();
         } else {
